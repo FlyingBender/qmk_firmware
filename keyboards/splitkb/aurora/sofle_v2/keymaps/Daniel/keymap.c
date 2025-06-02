@@ -16,9 +16,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //  left                                                   right
     [0] = LAYOUT(
         DE_CIRC, DE_1, DE_2, DE_3, DE_4, DE_5,                              DE_6, DE_7, DE_8, DE_9, DE_0,     DE_SS,
-        QK_GESC, DE_Q, DE_W, DE_E, DE_R, DE_T,                               DE_Y, DE_U, DE_I, DE_O, DE_P,     KC_BSPC,
+        QK_GESC, DE_Q, DE_W, DE_E, DE_R, DE_T,                              DE_Z, DE_U, DE_I, DE_O, DE_P,     KC_BSPC,
         KC_TAB, DE_A, DE_S, DE_D, SFT_T(DE_F), DE_G,                        DE_H, SFT_T(DE_J), DE_K, DE_L, DE_ODIA,  DE_ADIA,
-        KC_LSFT, DE_Z, DE_X, DE_C, DE_V, DE_B, XXXXXXX,                     XXXXXXX, DE_N, DE_M, DE_COMM, DE_DOT, DE_MINS, KC_RSFT, // hier sind noch die beiden encoder
+        KC_LSFT, DE_Y, DE_X, DE_C, DE_V, DE_B, XXXXXXX,                     XXXXXXX, DE_N, DE_M, DE_COMM, DE_DOT, DE_MINS, KC_RSFT, // hier sind noch die beiden encoder
         KC_LGUI, KC_LALT, KC_LCTL, MO(1), KC_ENT,                           KC_SPC, MO(2), KC_RCTL, KC_RALT, KC_RGUI
     ),
     [1] = LAYOUT(
@@ -43,6 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______,                        _______, _______, _______, _______, _______
     )
 };
+// clang-format on
 
 #ifdef OTHER_KEYMAP_C
 #    include OTHER_KEYMAP_C
