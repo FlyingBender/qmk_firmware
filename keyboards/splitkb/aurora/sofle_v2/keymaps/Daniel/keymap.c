@@ -20,28 +20,28 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV, DE_1, DE_2, DE_3, DE_4, DE_5,                                        DE_6, DE_7, DE_8, DE_9, DE_0, KC_F12,
         _______, DE_EXLM, DE_AT, DE_HASH, DE_DLR, DE_PERC,                           DE_LABK, DE_SLSH, DE_ASTR, DE_LPRN, DE_RPRN, DE_PIPE,
         _______, DE_EQL, DE_MINS, DE_PLUS, DE_LCBR, DE_RCBR, _______,       _______, DE_LBRC, DE_RBRC, DE_EQL, DE_COLN, DE_BSLS, _______,
-        _______, _______, _______, _______, _______,                        _______, MO(3), KC_GRV, _______, _______
+                         _______, _______, _______, _______, _______,       _______, MO(3), KC_GRV, _______, _______
     ),
     [2] = LAYOUT(
         _______, _______, _______, _______, _______, _______,                        _______, _______, _______, _______, _______, _______,
         _______, KC_INS, KC_PSCR, KC_APP, XXXXXXX, XXXXXXX,                          KC_PGUP, C(KC_LEFT), KC_UP, C(KC_RGHT), C(KC_BSPC), KC_DEL,
         _______, KC_LALT, KC_LCTL, KC_LSFT, XXXXXXX, KC_CAPS,                        KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL, KC_BSPC,
         _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V), XXXXXXX, _______,      _______, XXXXXXX, KC_HOME, XXXXXXX, KC_END, XXXXXXX, _______,
-        _______, _______, _______, MO(3), _______,                          _______, _______, _______, _______, _______
+                            _______, _______, _______, MO(3), _______,      _______, _______, _______, _______, _______
     ),
     [3] = LAYOUT(
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, RM_TOGG, RM_HUEU, RM_SATU, RM_VALU, XXXXXXX,                        XXXXXXX, KC_VOLD, KC_MUTE, KC_VOLU, XXXXXXX, XXXXXXX,
         XXXXXXX, RM_NEXT, RM_HUED, RM_SATD, RM_VALD, XXXXXXX, XXXXXXX,      XXXXXXX, XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, XXXXXXX,
-        _______, _______, _______, _______, _______,                        _______, _______, _______, _______, _______
+                          _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______
     ),
     [4] = LAYOUT(
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, KC_KP_SLASH, KC_KP_ASTERISK, KC_KP_MINUS, KC_CALC,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, KC_P7, KC_P8, KC_P9, KC_KP_PLUS, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, KC_P4, KC_P5, KC_P6, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,      XXXXXXX, XXXXXXX, KC_P1, KC_P2, KC_P3, XXXXXXX, XXXXXXX,
-        _______, _______, _______, _______, _______,                        _______, _______, KC_P0, _______, _______
+                          _______, _______, _______, _______, _______,      _______, _______, KC_P0, _______, _______
     )
     // TODO layer for anno with lock
 };
