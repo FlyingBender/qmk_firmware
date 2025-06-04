@@ -1,5 +1,7 @@
-#include "keycodes.h"
+// #include "keycodes.h"
+#include "keyboard.h"
 #include "quantum_keycodes.h"
+#include "rgb_matrix.h"
 #include QMK_KEYBOARD_H
 #if __has_include("keymap.h")
 #    include "keymap.h"
