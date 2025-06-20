@@ -21,8 +21,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT(
         KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6,                                    KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,
-        KC_GRV, DE_1, DE_2, DE_3, DE_4, DE_5,                                        DE_6, DE_7, DE_8, DE_9, DE_0, DE_SS,
-        DE_CIRC, DE_EXLM, DE_AT, DE_HASH, DE_DLR, DE_PERC,                           DE_AMPR, DE_SLSH, DE_ASTR, DE_LPRN, DE_RPRN, DE_PIPE,
+        KC_GRV, DE_1, DE_2, DE_3, DE_4, DE_5,                                        DE_6, DE_7, DE_8, DE_9, DE_0, DE_UDIA,
+        DE_QUES, DE_EXLM, DE_AT, DE_HASH, DE_DLR, DE_PERC,                           DE_AMPR, DE_SLSH, DE_ASTR, DE_LPRN, DE_RPRN, DE_PIPE,
         DE_LABK, DE_RABK, DE_MINS, DE_PLUS, DE_LCBR, DE_RCBR, _______,      _______, DE_LBRC, DE_RBRC, DE_EQL, DE_COLN, DE_BSLS, DE_TILD,
                          _______, _______, _______, _______, _______,       _______, MO(3), DE_DQUO, DE_QUOT, _______
     ),
