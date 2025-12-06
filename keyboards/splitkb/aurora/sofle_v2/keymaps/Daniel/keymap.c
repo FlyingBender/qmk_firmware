@@ -1,4 +1,5 @@
 // #include "keycodes.h"
+// qmk compile -kb splitkb/aurora/sofle_v2 -km Daniel
 #include "keyboard.h"
 #include "keycodes.h"
 #include "quantum_keycodes.h"
